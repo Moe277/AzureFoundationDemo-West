@@ -13,8 +13,8 @@ apt-get -y autoremove
 apt-get -y update && apt-get -y install apache2 git
 
 # write some HTML
-git clone https://github.com/jak119/appservicedemo
-cp -Rv ./appservicedemo/* /var/www/html
+git clone https://github.com/Moe277/AzureFoundationDemo-West
+cp -Rv ./AzureFoundationDemo-West/* /var/www/html
 
 # restart Apache
 apachectl restart
